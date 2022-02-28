@@ -15,11 +15,8 @@ def home():
 <h2 id="usage">Usage:</h2>
 <ul>
 <p>The Endpoint Of The API</p>
-  <li><code class="language-plaintext highlighter-rouge">/3d</code> will return Random 3D  Images</li>
     <li><code class="language-plaintext highlighter-rouge">/black</code> will return Random Black  Images</li>
-      <li><code class="language-plaintext highlighter-rouge">/doodle</code> will return Random Doodle  Images</li>
         <li><code class="language-plaintext highlighter-rouge">/minimal</code> will return Random Minimal  Images</li>
-          <li><code class="language-plaintext highlighter-rouge">/photography</code> will return Random Photography  Images</li>
 </ul>
     </main>
   </body>
