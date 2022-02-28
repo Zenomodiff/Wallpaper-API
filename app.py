@@ -26,34 +26,16 @@ def home():
 </html>
  '''
 
-@app.route('/3d', methods=['GET'])
-def threed_pic():
-	im_index = randint(1,333)
-	file = f'imgs/3d/image{im_index}.jpg'
-	return send_file(file, mimetype='image/jpg')
-
 @app.route('/black', methods=['GET'])
 def black_pic():
 	im_index = randint(1,120)
 	file = f'imgs/black/image{im_index}.jpg'
 	return send_file(file, mimetype='image/jpg')
 
-@app.route('/doodle', methods=['GET'])
-def doodle_pic():
-	im_index = randint(1,105)
-	file = f'imgs/doodle/image{im_index}.jpg'
-	return send_file(file, mimetype='image/jpg')
-
 @app.route('/minimal', methods=['GET'])
 def minimal_pic():
 	im_index = randint(1,131)
 	file = f'imgs/minimal/image{im_index}.jpg'
-	return send_file(file, mimetype='image/jpg')
-
-@app.route('/photography', methods=['GET'])
-def photography_pic():
-	im_index = randint(1,122)
-	file = f'imgs/photography/image{im_index}.jpg'
 	return send_file(file, mimetype='image/jpg')
 
 if __name__ == '__main__':
